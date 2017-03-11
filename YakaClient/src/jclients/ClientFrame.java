@@ -214,7 +214,7 @@ public class ClientFrame extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(b_cooked, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(b_cooked, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(41, 41, 41))))
         );
         layout.setVerticalGroup(
@@ -307,7 +307,7 @@ public class ClientFrame extends javax.swing.JFrame {
             rowData[4] = model.getValueAt(index[i],4);          
            
                 //model2.addRow(rowData);
-                dtm.removeRow(index[i]);
+              //  dtm.removeRow(index[i]);
             	Order order = new Order((int)rowData[0],(String)rowData[1], (int)rowData[2], (String)rowData[3], (int)rowData[4]);
             	//dtm.addRow(new Object[]{order.getTableNo(),order.getDishName(),order.getQuantity(),order.getStatusString(),order.getUnitPrice()});
             	
